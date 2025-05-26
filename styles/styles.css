@@ -1,5 +1,9 @@
+:root {
+    --background-color: darkblue;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--background-color);
     padding: 10px;
 }
 
