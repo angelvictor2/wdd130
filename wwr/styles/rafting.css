@@ -125,7 +125,12 @@ footer{
 }
 
 .img-container img {
-  width: 100px;
+  width: 125px;
   height: auto;
 
+}
+
+.socialmedia img{
+    width: 50px;
+    height: auto;
 }
