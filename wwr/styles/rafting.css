@@ -119,12 +119,13 @@ footer{
 
 .img-container {
   display: flex;
-  gap: 10px;
-  flex-wrap: wrap; 
-  justify-content: center;
+  gap: 10px; 
+  justify-content: space-around;
+  font-size: 10px;
 }
 
 .img-container img {
-  width: 150px;
+  width: 100px;
   height: auto;
+
 }
