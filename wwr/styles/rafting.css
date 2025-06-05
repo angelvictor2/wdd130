@@ -20,7 +20,7 @@ body {
     color: var(--accent1-color);
 }
 
-header, main, footer {
+header, .grid, footer{
     width: 840px;
     margin: 0;
 }
@@ -28,15 +28,17 @@ header, main, footer {
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-align: center;
 }
 
 nav, p, section, article {
     margin: 16px;
-    padding: 8px;
+    padding: 4px;    
 }
 
 .socialmedia a {
     text-decoration: none;
+
 }
 
 .hero {
@@ -74,4 +76,55 @@ h1 {
     width: 180px;
     padding: 0.2em;
     margin: 0.2em;
+}
+
+header {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: x-large;
+    border-bottom: 1px solid black;
+    max-width: 1000px;
+}
+
+.sample-logo {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.sample-logo li {
+    flex: 1 1 auto
+}
+
+.sample-logo a {
+    display: block;
+    color: navy;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.grid {
+    display: grid;
+    align-items: flex-end;
+}
+
+.img-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+.img-container img {
+  width: 150px;
+  height: auto;
 }
